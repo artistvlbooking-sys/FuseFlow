@@ -26,11 +26,11 @@ juce_add_gui_app(FuseFlow
 )
 
 target_sources(FuseFlow PRIVATE
-    Source/Main.cpp
-    Source/MainComponent.cpp
-    Source/MainComponent.h
-    Source/AudioEngine.cpp
-    Source/AudioEngine.h
+    Main.cpp
+    MainComponent.cpp
+    MainComponent.h
+    AudioEngine.cpp
+    AudioEngine.h
 )
 
 target_compile_features(FuseFlow PRIVATE cxx_std_20)
